@@ -1,3 +1,7 @@
+import pytest
+from versions.versions import Version, releaseTypes
+
+
 def test_getWarning():
     version01 = Version("1.2.3")
     version02 = Version("1.2.6")
@@ -67,10 +71,6 @@ def test_channels():
     assert version21 != version01
     
     
-
-import pytest
-from versions.versions import Version, releaseTypes
-
 @pytest.fixture
 def version_basic():
     return Version("1.2.3")
