@@ -8,6 +8,10 @@ version = "1.0.0"
 authors = [
   { name="Kaneryu", email="hello@kan.moe" },
 ]
+
+[tool.pytest.ini_options]
+python_paths = ["D:\\sss\\versions"]
+
 description = "Simple version class"
 readme = "README.md"
 requires-python = ">=3.8"
