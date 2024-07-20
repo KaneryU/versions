@@ -1,4 +1,5 @@
 # Versions
+![project](https://github.com/kaneryu/versions/actions/workflows/python-app.yml/badge.svg) [![codecov](https://codecov.io/github/KaneryU/versions/graph/badge.svg?token=YHXU7KB3PK)](https://codecov.io/github/KaneryU/versions)
 ### Don't use this, There's probably better solutions out there.
 
 This is a simple class I use that stores a version number.
